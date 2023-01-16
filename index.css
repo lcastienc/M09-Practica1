@@ -1,0 +1,88 @@
+/*CSS del Body y las etiquetas que más se repiten*/
+
+body {
+    border: 3px solid black;
+    padding: 1px;
+}
+
+header {
+    border: 3px solid rgb(124, 184, 35);
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    border: 3px solid rgb(124, 184, 35);
+    margin: 10px;
+}
+
+p {
+    border: 3px solid rgb(124, 184, 35);
+    margin: 10px;
+}
+
+a {
+    border: 3px solid rgb(124, 184, 35);
+}
+
+
+/*CSS del contenedor donde estan la lista y el resto*/
+
+#contenedor {
+    border: 3px solid rgb(31, 31, 162);
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+/*CSS de */
+
+.menu-list {
+    border: 3px solid rgb(124, 184, 35);
+    width: 20%
+}
+
+.menu-list>ul {
+    padding: 0;
+}
+
+.menu-list ul>li {
+    border: 3px solid rgb(124, 184, 35);
+    list-style-type: none;
+    margin-left: 1px;
+    margin: 20px;
+}
+
+#general-content {
+    border: 3px solid rgb(143, 11, 11);
+    padding: 2px;
+}
+
+.description {
+    border: 3px solid rgb(31, 31, 162);
+}
+
+.description-products {
+    border: 3px solid rgb(31, 31, 162);
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.description-products img {
+    border: 3px solid rgb(124, 184, 35);
+}
+
+.products {
+    border: 3px solid #78FFF7;
+    margin: 2px;
+    width: 80%;
+}
+
+.product {
+    border: 3px solid #FC3Af1;
+    margin: 3px;
+    padding: 10px;
+    max-width: 25%;
+    text-align: center;
+}
